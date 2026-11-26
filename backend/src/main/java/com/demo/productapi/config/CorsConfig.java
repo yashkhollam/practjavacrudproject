@@ -9,7 +9,7 @@ import java.util.List;
 
 @Configuration
 public class CorsConfig implements WebMvcConfigurer {
-    @Value("${app.cors.allowed-origins:https://practjavacrudproject-1.onrender.com/}")
+    @Value("${app.cors.allowed-origins:https://practjavacrudproject-1.onrender.com}")
     private String allowedOrigins;
 
     @Override
